@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --main-color: #3498db; 
+        }
+        
+        
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        header, main {
+            background-color: var(--main-color);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        
+        @media (max-width: 768px) {
+            :root {
+                --main-color: #2ecc71; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Webpage</h1>
+    </header>
+    <main>
+        <p>This is the main content of the webpage. Resize the browser to see the background color change!</p>
+    </main>
+</body>
+</html>
